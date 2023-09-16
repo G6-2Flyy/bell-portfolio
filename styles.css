@@ -33,21 +33,20 @@ main {
 }
 
 nav {
-    display: flex;
-    justify-content: flex-end;
     background-color: rgb(61, 161, 90);
-    line-height: 50px;
-    list-style-type: none;
-    text-align: end;
     margin: 0;
 }
 
-nav ul .items {
+nav ul {
+    display: flex;
     justify-content: space-between;
     display: inline-flex;
     color: white;
     font-size: larger;
     margin-right: 10px;
+    line-height: 50px;
+    list-style-type: none;
+    text-align: end;
 }
 
 #items-name {
