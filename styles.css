@@ -1,0 +1,55 @@
+body {
+font-family:'Times New Roman', Times, serif;
+background-color: rgb(202, 212, 212);
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.portfolio-section {
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-section h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 20px;
+    border-right: 5px solid red;
+}
+
+.portfolio-section div {
+    flex: 0 0 74%;
+    margin-left: 30px;
+
+}
+
+.portfolio-image {
+    max-height: 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(61, 161, 90);
+    line-height: 50px;
+    list-style-type: none;
+    text-align: end;
+    margin: 0;
+}
+
+nav ul .items {
+    justify-content: space-between;
+    display: inline-flex;
+    color: white;
+    font-size: larger;
+    margin-right: 10px;
+}
+
+#items-name {
+    align-self: flex-start;
+}
