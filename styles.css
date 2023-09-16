@@ -37,18 +37,28 @@ nav {
     margin: 0;
 }
 
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    display: inline-flex;
-    color: white;
-    font-size: larger;
-    margin-right: 10px;
-    line-height: 50px;
-    list-style-type: none;
-    text-align: end;
+.items:hover {
+    cursor: pointer;
+    color: chocolate;
 }
 
-#items-name {
-    align-self: flex-start;
+nav ul {
+    display: flex;
+    justify-content:flex-end;
+    color:white;
+    font-size: larger;
+    margin-right: 50px;
+    line-height: 30px;
+    list-style-type: none;
+    column-gap: 25px;
+    align-items: center;
+}
+
+#name {
+    display: flex;
+    background-color: chartreuse;
+    padding: 15px;
+    color:white;
+    align-items: center;
+    width: 100px;
 }
