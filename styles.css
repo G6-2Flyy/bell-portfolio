@@ -19,7 +19,7 @@ main {
     flex: 0 0 20%;
     text-align: right;
     padding-right: 20px;
-    border-right: 5px solid red;
+    border-right: 5px solid rgb(61, 161, 90);
 }
 
 .portfolio-section div {
@@ -29,7 +29,10 @@ main {
 }
 
 .portfolio-image {
-    max-height: 200px;
+    max-height: 300px;
+    border-style: solid;
+    border-color: rgb(61, 161, 90);
+    border-width: 5px;
 }
 
 nav {
@@ -49,16 +52,28 @@ nav ul {
     font-size: larger;
     margin-right: 50px;
     line-height: 30px;
-    list-style-type: none;
+    list-style: none;
     column-gap: 25px;
     align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
 }
 
 #name {
     display: flex;
     background-color: chartreuse;
-    padding: 15px;
+    /* padding: 5px; */
     color:white;
-    align-items: center;
-    width: 100px;
+    align-items:center;
+    max-width: 25%;
+    flex-grow: 2;
+    flex-shrink: 1;
+    font-size: 2rem;
+    /* justify-self: left; */
+    margin-left: auto;
+}
+
+nav ul .items {
+    /* display:flex; */
+    justify-content: center;
 }
