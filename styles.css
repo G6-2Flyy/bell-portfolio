@@ -51,8 +51,10 @@ main {
     position: absolute;
     left: 0;
     bottom: 10px;
-    background-color: aqua;
+    background-color: chartreuse;
     padding: 5px;
+    width: 180px;
+    height: 115px;
 }
 
 
@@ -112,5 +114,19 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
+    font-size: x-large;
 }
+
+#contacts {
+    height: 100px;
+}
+
+.contact-list-link {
+    text-decoration: underline;
+}
+
+.contact-list-link:hover {
+    cursor: pointer;
+    color:chocolate
+}
+
