@@ -2,11 +2,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 body {
-/* font-family:'Times New Roman', Times, serif; */
 background-color: rgb(202, 212, 212);
 padding: 0;
 margin: 0;
+margin-top: 135px;
 }
 
 main {
@@ -93,6 +94,11 @@ nav {
     padding: 0;
     justify-content: space-evenly;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 125px;
+    margin-top: -135px;
+    z-index: 1;
 }
 
 #name {
@@ -125,9 +131,9 @@ nav {
     height: 100px;
 }
 
-.contact-list-link {
+/* .contact-list-link {
     text-decoration: underline;
-}
+} */
 
 .contact-list-link:hover {
     cursor: pointer;
@@ -147,4 +153,8 @@ footer p {
     font-size: xx-large;
     line-height: 25px;
     align-items: center;
+}
+
+a {
+    text-decoration: none;
 }
