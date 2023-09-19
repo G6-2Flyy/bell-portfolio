@@ -69,7 +69,6 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: end;
-    gap: 25px;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -100,6 +99,7 @@ nav {
     height: 105px;
     flex-wrap: wrap;
     top: 0;
+    z-index: 1;
 }
 
 #name {
@@ -138,10 +138,6 @@ nav {
     height: 100px;
 }
 
-/* .contact-list-link {
-    text-decoration: underline;
-} */
-
 .contact-list-link:hover {
     cursor: pointer;
     color:chocolate
@@ -166,6 +162,10 @@ a {
     text-decoration: none;
 }
 
+.contact-links {
+    padding: 9px;
+}
+
 @media screen and (max-width:992px) {
     .portfolio-item {
         width: fit-content;
@@ -186,7 +186,14 @@ a {
     }
 }
 
-@media screen and (max-with: 576) {
+@media screen and (max-width: 681px) {
+    .portfolio-image {
+        max-height: 248px;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
     .contact-list {
         flex-direction: column;
     }
@@ -195,3 +202,4 @@ a {
         margin-right: 0;
     }
 }
+
