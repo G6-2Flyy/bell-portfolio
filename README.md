@@ -7,7 +7,7 @@ This project entailed creating a webpage that warehouses information about me, g
 - This project was inspiring because it afforded another opportunity to exercise and showcase continued development of relevant skills.
 - Tech industry employers value relevant work experience and proficiency.
 - This site provides colleagues and employers internet access to my professional profile.
-- E-based portfolios is the norm, especially in the tech industry.
+- E-based portfolios are the norm, especially in the tech industry.
 
 ## Table of Contents
 
@@ -21,7 +21,7 @@ This project entailed creating a webpage that warehouses information about me, g
 2. Visit the address listed below.
 3. Click a link on the navigation bar to view additional information.
 
-Web address:  
+Web address: https://g6-2flyy.github.io/bell-portfolio/  
 
 ![alt text](./images/bell-portfolio.png)
     
